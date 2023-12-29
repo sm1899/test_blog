@@ -48,8 +48,8 @@ INSTALLED_APPS = [
     'froala_editor',
     'home',
     'rest_framework',
-    'app',
-    #'Blog',
+    #'app',
+    'Blog',
 
 ]
 
