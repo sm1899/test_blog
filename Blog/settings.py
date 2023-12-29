@@ -17,9 +17,7 @@ import os
 DATABASES = {
 	"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
-# DATABASES = {
-# 	"default": dj_database_url.parse("postgres://test_db_oq22_user:4oQdENoZWeinNznkNdDhSlUt3Q3uLWNL@dpg-cm7fr9md3nmc73cgdrfg-a.oregon-postgres.render.com/test_db_oq22")
-# }
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
